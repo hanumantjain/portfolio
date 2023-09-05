@@ -1,13 +1,15 @@
 import React from 'react'
+import img1 from '../images/thefundershub.png'
 
 
 const Projects = () => {
   return (
-    <div className='ml-20'>
-        <h1 className='mb-20'>Projects</h1>
-        <div className='flex flex-col gap-20'>
+    <div className=''>
+        <h1 className=' text-3xl mt-20'>Projects</h1>
+        <hr />
+        <div className='flex flex-col gap-20 mt-10 justify-center items-center'>
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img className="w-full" src="#" alt="The Funder's Hub"/>
+                <img className="w-full" src={img1} alt="The Funder's Hub"/>
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">The Funder's Hub</div>
                   <p className="">
@@ -36,7 +38,7 @@ const Projects = () => {
 
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img className="w-full" src="#" alt="Inspire Health Care"/>
+                <img className="w-full" src={img1} alt="Inspire Health Care"/>
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">Inspire Health Care</div>
                   <p className="">

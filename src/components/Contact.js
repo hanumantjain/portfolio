@@ -2,10 +2,11 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='m-20'>
-        <h1 className='mb-20'>Contact</h1>
-        <div className=' flex flex-col gap-5 '>
-            <div className=''>
+    <div className='mt-20'>
+        <h1 className=' text-3xl'>Contact</h1>
+        <hr />
+        <div className='flex flex-col gap-5'>
+            <div className=' mt-10'>
                 <label htmlFor="name">
                     Name
                 </label>

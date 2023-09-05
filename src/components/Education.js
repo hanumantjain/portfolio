@@ -2,9 +2,10 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='m-20'>
-      <h1 className='mb-20 '>Education</h1>
-        <div className=''>
+    <div className=''>
+      <h1 className=' text-3xl mt-20'>Education</h1>
+      <hr />
+        <div className='mt-10'>
             <div className='border-l-2 border-black mb-16'>
                 <h1 className=' ml-8'>Master of Science in Computer Science</h1>
                 <h3 className=' ml-8'>2023 - Present</h3>
