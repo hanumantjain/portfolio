@@ -1,8 +1,12 @@
 import React from 'react'
+import {AiFillGithub} from 'react-icons/ai'
+import {AiFillLinkedin} from 'react-icons/ai'
+import {AiFillInstagram} from 'react-icons/ai'
+
 
 const About = () => {
   return (
-    <div>
+    <div id='about'>
         <h1 className='text-3xl'>About</h1>
         <hr />
         <p className=' mt-5 mb-20'>Enthusiastic MSCS student with a strong foundation in 
@@ -13,10 +17,10 @@ const About = () => {
         {/* <h1 className='text-2xl'>MS in Computer Engineering</h1>
         <h3 className='text-3xl'>George Washington University</h3> */}
 
-        <div className='flex justify-between'>
+        <div className='flex justify-between flex-col lg:flex-row'>
             <div>
               <h4 className='m-2'>{">"} Website: hanumantjain.tech</h4>
-              <h4 className='m-2'>{">"} Phone: +1 5712594741</h4>
+              <h4 className='m-2'>{">"} Phone: +1 {"("}571{")"} 259 4741</h4>
               <h4 className='m-2'>{">"} Location: Arlington, VA</h4>
             </div>
             <div>
@@ -25,28 +29,13 @@ const About = () => {
               <h4 className=' m-2'>{">"} Email: hanumantjain939@gmail.com</h4>
             </div>
         </div>
-
-        <h2 className='mt-20 text-3xl'>Resume</h2>
-        <hr />
-        <div className='flex gap-10 m-10 justify-center items-center'>
-            <button className="h-12 text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-gray-900 rounded text-lg">
-                      Resume
-            </button>
-            <div className='flex flex-wrap'>
-                <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>C</h6>
-                <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>C++</h6>
-                <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>Java</h6>
-                <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>HTML</h6>
-                <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>CSS</h6>
-                <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>JavaScript</h6>
-                <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>Solidity</h6>
-                <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>React</h6>
-                <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>TailwindCSS</h6>
-                <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>AWS</h6>
-                <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>Blockchain</h6>
-                <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>Ethereum</h6>
-            </div>
+        
+        <div className='flex gap-12 justify-center mt-10 text-2xl'>
+            <a href="https://github.com/hanumantjain" ><AiFillGithub /></a>
+            <a href="https://www.linkedin.com/in/hanumant-jain-621745173"><AiFillLinkedin /></a>
+            <a href="https://instagram.com/hanu_0108?igshid=NzZlODBkYWE4Ng=="><AiFillInstagram /></a>
         </div>
+        
         
 
     </div>

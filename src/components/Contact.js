@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='mt-20'>
+    <div id='contact' className='mt-20'>
         <h1 className=' text-3xl'>Contact</h1>
         <hr />
         <div className='flex flex-col gap-5'>
@@ -38,7 +38,8 @@ const Contact = () => {
                 <button className="flex mx-auto text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-gray-900 rounded text-lg">
                   Send
                 </button>
-              </div>
+        </div>
+        
     </div>
   )
 }

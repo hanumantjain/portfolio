@@ -4,10 +4,10 @@ import img1 from '../images/thefundershub.png'
 
 const Projects = () => {
   return (
-    <div className=''>
+    <div id="projects">
         <h1 className=' text-3xl mt-20'>Projects</h1>
         <hr />
-        <div className='flex flex-col gap-20 mt-10 justify-center items-center'>
+        <div className='flex flex-col gap-20 mt-10 justify-center items-center lg:flex-row md:flex-col'>
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img className="w-full" src={img1} alt="The Funder's Hub"/>
                 <div className="px-6 py-4">
