@@ -1,5 +1,7 @@
 import React from 'react'
 import img1 from '../images/thefundershub.png'
+import img2 from '../images/medical.jpeg'
+
 
 
 const Projects = () => {
@@ -7,7 +9,7 @@ const Projects = () => {
     <div id="projects">
         <h1 className=' text-3xl mt-20'>Projects</h1>
         <hr />
-        <div className='flex flex-col gap-20 mt-10 justify-center items-center lg:flex-row md:flex-col'>
+        <div className='flex flex-col gap-20 justify-center items-center lg:flex-row lg:flex-wrap md:flex-col mt-10'>
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img className="w-full" src={img1} alt="The Funder's Hub"/>
                 <div className="px-6 py-4">
@@ -28,8 +30,8 @@ const Projects = () => {
                 <div className="px-6 pt-4 pb-2 mb-10">
                   <h2>Links :</h2>
                   <div className='flex justify-around'>
-                    <h1>Website</h1>
-                    <h1>Code</h1>
+                    <a href="https://thefundershub.netlify.app">Demo</a>
+                    <a href="https://github.com/hanumantjain/the-funders-hub">Code</a>
                   </div>
                 </div>
 
@@ -38,7 +40,7 @@ const Projects = () => {
 
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img className="w-full" src={img1} alt="Inspire Health Care"/>
+                <img className="w-fit" src={img2} alt="Inspire Health Care"/>
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">Inspire Health Care</div>
                   <p className="">
@@ -57,7 +59,7 @@ const Projects = () => {
                   <h2>Links :</h2>
                   <div className='flex justify-around'>
                     <h1>Website</h1>
-                    <h1>Code</h1>
+                    <a href="https://github.com/hanumantjain/e-healthcareproject">Code</a>
                   </div>
                 </div>
             </div>
