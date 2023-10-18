@@ -7,7 +7,7 @@ const projectData = [
         id: "2",
         name: "Decentrix",
         image: img3,
-        description : "Successfully led the development and management of an innovative e-commerce platform, integrating Polygon blockchain, Worldcoin, Moralis, and Biconomy to optimize user experience, reduce transaction costs, and ensure data security. Implemented lightning-fast transaction processing, global accessibility, and ethical shopping initiatives, fostering a socially responsible shopping environment." ,
+        description : "This is the development of an e-commerce platform that integrated Polygon blockchain, Worldcoin, Moralis, and Biconomy to optimize user experience, reduce costs, ensure security, and foster ethical shopping." ,
         tools : "NextJS, Solidity, WorldCoin, Moralis, Biconomy",
         website: "https://decentrix-fe-hanumant-jains-projects.vercel.app",
         github : "https://github.com/ETH-NYC-2023/Decentrix-fe.git"

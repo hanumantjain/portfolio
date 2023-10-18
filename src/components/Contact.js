@@ -26,14 +26,14 @@ const Contact = () => {
   };
   return (
     <div id='contact' className='mt-20 px-10'>
-        <h1 className=' text-3xl'>Contact</h1>
+        <h1 className=' text-3xl head'>Contact</h1>
         <hr />
         <form ref={form} onSubmit={sendEmail} >
         <div className='flex flex-col gap-5'>
         
             <div className=' mt-10'>
                 
-                <label htmlFor="name">
+                <label htmlFor="name" className=' font-bold'>
                     Name
                 </label>
                 <input type="text"
@@ -44,7 +44,7 @@ const Contact = () => {
                         className=' w-full h-10 bg-gray-100 rounded border-gray-900 py-1 px-3 focus:border-indigo-500' />
             </div>
             <div>
-                <label htmlFor="email">
+                <label htmlFor="email" className=' font-bold'>
                     Email
                 </label>
                 <input type="email"
@@ -56,7 +56,7 @@ const Contact = () => {
                         className=' w-full h-10 bg-gray-100 rounded border-gray-900 py-1 px-3 focus:border-indigo-500' />
             </div>
             <div>
-                <label htmlFor="message">
+                <label htmlFor="message" className=' font-bold'>
                     Message
                 </label>
                 <textarea name="message" 
@@ -70,7 +70,7 @@ const Contact = () => {
         </div>
         <div className="p-2 w-full">
                 <button 
-                className="flex mx-auto text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-gray-900 rounded text-lg">
+                className="flex head mx-auto text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-gray-900 rounded text-lg">
                   Send
                 </button>
         </div>

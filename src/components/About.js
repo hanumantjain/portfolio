@@ -7,9 +7,9 @@ import {AiFillInstagram} from 'react-icons/ai'
 const About = () => {
   return (
     <div id='about'>
-        <h1 className='text-3xl'>About</h1>
+        <h1 className='text-3xl head'>About</h1>
         <hr />
-        <p className='mt-5 mb-20'>Enthusiastic MSCS student with a strong foundation in 
+        <p className='mt-5 mb-20 font1 text-lg'>Enthusiastic MSCS student with a strong foundation in 
                     computer science principles and hands-on experience 
                     in software development.</p>
 
@@ -19,14 +19,14 @@ const About = () => {
 
         <div className='flex justify-between flex-col lg:flex-row'>
             <div>
-              <h4 className='m-2'>{">"} Website: <span className=''> hanumantjain.tech</span></h4>
-              <h4 className='m-2'>{">"} Phone: +1 {"("}571{")"} 259 4741</h4>
-              <h4 className='m-2'>{">"} Location: Arlington, VA</h4>
+              <h4 className='m-2 head'>{">"} Website: <span className='font1'> hanumantjain.tech</span></h4>
+              <h4 className='m-2 head'>{">"} Phone:<span className='font1'> +1 {"("}571{")"} 259 4741</span></h4>
+              <h4 className='m-2 head'>{">"} Location:<span className='font1'> Arlington, VA</span></h4>
             </div>
             <div>
-              <h4 className=' m-2'>{">"} Degree: MS in CS</h4>
-              <h4 className=' m-2'>{">"} Email: hanumant.jain@gwu.edu</h4>
-              <h4 className=' m-2'>{">"} Email: hanumantjain939@gmail.com</h4>
+              <h4 className=' m-2 head'>{">"} Degree:<span className='font1'> MS in CS</span> </h4>
+              <h4 className=' m-2 head'>{">"} Email:<span className='font1'> hanumant.jain@gwu.edu</span></h4>
+              <h4 className=' m-2 head'>{">"} Email:<span className='font1'> hanumantjain939@gmail.com</span></h4>
             </div>
         </div>
         

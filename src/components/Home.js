@@ -110,10 +110,10 @@ const particlesLoaded = useCallback(async container => {
                 detectRetina: true,
             }}
         />
-                <h1 className=' text-4xl md:text-6xl lg:text-6xl'>Hanumant Jain</h1>
+                <h1 className=' text-4xl md:text-6xl lg:text-6xl head'>Hanumant Jain</h1>
                 {/* <h3 className=' text-2xl md:text-4xl lg:text-4xl mt-3'> MSCS Student </h3>
                 <h3 className=' text-2xl md:text-4xl lg:text-4xl'>{">"} Software Developer</h3> */}
-                <div className='text-2xl md:text-3xl lg:text-3xl mt-3'>
+                <div className='text-2xl md:text-3xl lg:text-3xl mt-3 head'>
                   <span>I am {">"} </span>
                   <TypeAnimation 
                     sequence={[
