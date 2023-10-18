@@ -133,7 +133,7 @@ const particlesLoaded = useCallback(async container => {
                 
         </div>
             
-          <div className=' basis-1/2 overflow-scroll lg:m-20 m-10'>
+          <div className=' basis-1/2 lg:m-20 m-10'>
             <About />
             <Resume />
             <Education />

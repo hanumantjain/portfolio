@@ -9,7 +9,7 @@ const About = () => {
     <div id='about'>
         <h1 className='text-3xl'>About</h1>
         <hr />
-        <p className=' mt-5 mb-20'>Enthusiastic MSCS student with a strong foundation in 
+        <p className='mt-5 mb-20'>Enthusiastic MSCS student with a strong foundation in 
                     computer science principles and hands-on experience 
                     in software development.</p>
 
@@ -19,7 +19,7 @@ const About = () => {
 
         <div className='flex justify-between flex-col lg:flex-row'>
             <div>
-              <h4 className='m-2'>{">"} Website: hanumantjain.tech</h4>
+              <h4 className='m-2'>{">"} Website: <span className=''> hanumantjain.tech</span></h4>
               <h4 className='m-2'>{">"} Phone: +1 {"("}571{")"} 259 4741</h4>
               <h4 className='m-2'>{">"} Location: Arlington, VA</h4>
             </div>
