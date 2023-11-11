@@ -1,6 +1,5 @@
 import React, {useRef, useState} from 'react'
-import emailjs from '@emailjs/browser';
-import { Provider as AlertProvider } from 'react-alert'
+import emailjs from '@emailjs/browser'
 
 
 const Contact = () => {
