@@ -1,7 +1,18 @@
 import img1 from '../images/thefundershub.png'
 import img2 from '../images/medical.jpeg'
 import img3 from '../images/decntrix.png'
+import img4 from '../images/Web3Verse.png'
 const projectData = [
+
+    {
+        id: "3",
+        name: "Web3Verse",
+        image: img4,
+        description : "This is the decentralised social media platfrom which aims to empower users and prioritize privacy. Here user can become friends with another user can they can showcase their art and even sell them as NEFTs." ,
+        tools : "React, Solidity, Polygon, Foundry-Framework, IPFS-storage",
+        website: "https://web3verse.netlify.app",
+        github : "https://github.com/Team-Solidity/web3verse-fe"
+    },
 
     {
         id: "2",
